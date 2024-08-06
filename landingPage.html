@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/gvs1pth.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>hebe</title>
+</head>
+<body>
+    <div class="landingContainer">
+    <a href=" https://www.hebe.pl/register">
+        <div class="mainBox">
+        </div>    
+    </a>
+    <div class="benefitsStandard">
+        <h1>PRESKÚMAJTE VÝHODY</h1>
+        <h2>MY HEBE STANDARD</h2>
+        <ul class="standardPoints">
+            <li class="firstPoint">
+                <div class="firstStandard">
+                    <h3>DOSTANETE UVÍTACÍ KUPÓN</h3>
+                    <h4>Pridajte sa k my hebe a získajte kupón na 10%</h4>
+                </div>
+            </li>
+            <li class="secondPoint">
+                <div class="secondStandard">
+                    <h3>ZBIERAJTE DIAMANTY</h3>
+                    <h4>Realizujte nákupy, za ktoré získate diamanty</h4>
+                </div>
+            </li>
+            <li class="thirdPoint">
+                <div class="thirdStandard">
+                    <h3>VYUŽITE PERSONALIZOVANÉ PONUKY AŽ DO VÝŠKY 60%</h3>
+                    <h4>Objavte zľavy a ušetrite na svojich obľúbených kozmetických výrobkoch</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="statusMyHebe">
+    </div>
+
+    <div class="benefitsVip">
+        <h1>PRESKÚMAJTE VÝHODY</h1>
+        <h2>MY HEBE VIP</h2>
+        <ul class="vipPoints">
+            <li class="fourthPoint">
+                <div class="fourthStandard">
+                    <h3>DOSTANETE UVÍTACÍ KUPÓN PRE MY HEBE VIP</h3>
+                    <h4>Pridajte sa k my hebe VIP a získajte kupón 10%</h4>
+                </div>
+            </li>
+            <li class="fifthPoint">
+                <div class="fifthStandard">
+                    <h3>OSLÁVTE SVOJE NARODENINY KUPÓNOM</h3>
+                    <h4>Objavte 20% zľavu a ušetrite na svojich nákupoch</h4>
+                </div>
+            </li>
+            <li class="sixthPoint">
+                <div class="sixthStandard">
+                    <h3>VYMEŇTE DIAMANTY ZA KUPÓNY</h3>
+                    <h4>Využite atraktívne zľavy</h4>
+                </div>
+            </li>
+        </ul>
+        <h4 id="vipstatus">Status môj hebe VIP platí 12 mesiacov.</h4>
+    </div>
+
+    <div class="instruction">
+        <h2>AKO TO FUNGUJE?</h2>
+        <div class="threeSteps">
+            <img id="firstStep" class="phoneImage"/>
+            <img id="secondStep" class="phoneImage"/>
+            <img id="thirdStep" class="phoneImage"/>
+        </div>
+    </div>
+    <div class="download">
+        <div class="downloadButtons">
+            <div class="myDownloadBtns">
+            <a href="https://apps.apple.com/pl/app/hebe-zdrowie-i-pi%C4%99kno/id1502417997?l=pl">
+            <button id="dwn1btn"></button>
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=pl.hebe.app&pli=1">
+            <button id="dwn2btn"></button>
+            </a>
+        </div>
+        </div>
+    </div>
+    <div class="qa">
+        <h1>ČASTO KLADENÉ<span class="pinkQ"> OTÁZKY</span></h1>
+        <h4>V časti Často kladené otázky nájdete odpovede na najčastejšie otázky týkajúce sa zbierania,
+            používania a výmeny diamantov v službe my hebe VIP.</h4>
+        <div class="qaSector1">
+            <div class="qaOne">
+                <h5 class="number">01</h5>
+                <h6>Ako môžem získať diamanty v programe my hebe?</h6>
+                <div><button id="btn1" onclick="btn1Click()"></button></div>
+                <div></div>
+                <h5 id="answear1"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector2">
+            <div class="qaTwo">
+                <h5 class="number">02</h5>
+                <h6>Ako dlho sú diamanty platné?</h6>
+                <div><button id="btn2" onclick="btn2Click()"></button></div>
+                <div></div>
+                <h5 id="answear2"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector3">
+            <div class="qaThree">
+                <h5 class="number">03</h5>
+                <h6>Stiahnu sa diamanty z môjho účtu, ak vrátim alebo zruším objednávku?</h6>
+                <div><button id="btn3" onclick="btn3Click()"></button></div>
+                <div></div>
+                <h5 id="answear3"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector4">
+            <div class="qaFour">
+                <h5 class="number">04</h5>
+                <h6>Kde si môžem skontrolovať aktuálne množstvo a históriu svojich diamantov?</h6>
+                <div><button id="btn4" onclick="btn4Click()"></button></div>
+                <div></div>
+                <h5 id="answear4"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector5">
+            <div class="qaFive">
+                <h5 class="number">05</h5>
+                <h6>Čo ak nevidím svoje diamanty na svojom účte?</h6>
+                <div><button id="btn5" onclick="btn5Click()"></button></div>
+                <div></div>
+                <h5 id="answear5"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector6">
+            <div class="qaSix">
+                <h5 class="number">06</h5>
+                <h6>Sú diamanty účtované pri nákupe produktov Hebe Partner?</h6>
+                <div><button id="btn6" onclick="btn6Click()"></button></div>
+                <div></div>
+                <h5 id="answear6"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector7">
+            <div class="qaSeven">
+                <h5 class="number">07</h5>
+                <h6>Ako získam VIP status a ako dlho je platný?</h6>
+                <div><button id="btn7" onclick="btn7Click()"></button></div>
+                <div></div>
+                <h5 id="answear7"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector8">
+            <div class="qaEight">
+                <h5 class="number">08</h5>
+                <h6>Výmena 20 diamantov za VIP status.</h6>
+                <div><button id="btn8" onclick="btn8Click()"></button></div>
+                <div></div>
+                <h5 id="answear8"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector9">
+            <div class="qaNine">
+                <h5 class="number">09</h5>
+                <h6>Výmena diamantov za poukážky.</h6>
+                <div><button id="btn9" onclick="btn9Click()"></button></div>
+                <div></div>
+                <h5 id="answear9"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector10">
+            <div class="qaTen">
+                <h5 class="number">10</h5>
+                <h6>Kde nájdem informácie o dostupných a aktívnych poukážkach?</h6>
+                <div><button id="btn10" onclick="btn10Click()"></button></div>
+                <div></div>
+                <h5 id="answear10"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector11">
+            <div class="qaEleven">
+                <h5 class="number">11</h5>
+                <h6>Čo ak nevyužijem aktivovanú poukážku?</h6>
+                <div><button id="btn11" onclick="btn11Click()"></button></div>
+                <div></div>
+                <h5 id="answear11"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector12">
+            <div class="qaTwelve">
+                <h5 class="number">12</h5>
+                <h6>Čo ak vrátim nákup alebo dôjde k zrušeniu online objednávky?</h6>
+                <div><button id="btn12" onclick="btn12Click()"></button></div>
+                <div></div>
+                <h5 id="answear12"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector13">
+            <div class="qaThirteen">
+                <h5 class="number">13</h5>
+                <h6>Musím byť prihlásená alebo sa preukázať svojou kartou hebe, aby som mohla použiť poukaz?</h6>
+                <div><button id="btn13" onclick="btn13Click()"></button></div>
+                <div></div>
+                <h5 id="answear13"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector14">
+            <div class="qaFourteen">
+                <h5 class="number">14</h5>
+                <h6>Prečo poukážka neznižuje cenu produktov Hebe Partner?</h6>
+                <div><button id="btn14" onclick="btn14Click()"></button></div>
+                <div></div>
+                <h5 id="answear14"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector15">
+            <div class="qaFiveteen">
+                <h5 class="number">15</h5>
+                <h6>Môžem v nákupnom košíku použiť tú istú poukážku viackrát?</h6>
+                <div><button id="btn15" onclick="btn15Click()"></button></div>
+                <div></div>
+                <h5 id="answear15"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector16">
+            <div class="qaSixteen">
+                <h5 class="number">16</h5>
+                <h6>Ako si môžem predĺžiť svoj my hebe VIP status?</h6>
+                <div><button id="btn16" onclick="btn16Click()"></button></div>
+                <div></div>
+                <h5 id="answear16"></h5>
+                <div></div>
+            </div>
+        </div>
+        <div class="qaSector17">
+            <div class="qaSeventeen">
+                <h5 class="number">17</h5>
+                <h6>Bude mi za predĺženie môjho my hebe VIP statusu účtovaných 20 diamantov?</h6>
+                <div><button id="btn17" onclick="btn17Click()"></button></div>
+                <div></div>
+                <h5 id="answear17"></h5>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="youBuy">
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
