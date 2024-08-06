@@ -24,23 +24,23 @@ buttons.forEach(btn => {
 
     
 
-    const myInsertText1 = 'Jako my hebe STANADARD możesz zbierać diamenty za każde jednorazowo wydane 25 zł z kartą my hebe w drogeriach lub po zalogowaniu na hebe.pl, w aplikacji.';
-    const myInsertText2 = 'Każdy diament jest ważny 365 dni od daty jego zdobycia.';
-    const myInsertText3 = 'Diamenty są zabierane z Twojego konta w przypadku anulacji zamówenia lub zwrotu produktów.';
-    const myInsertText4 = 'Aktualną ilość i historię diamentów możesz sprawdzić na swoim koncie my hebe po zalogowaniu w aplikacji i na hebe.pl.';
-    const myInsertText5 = 'Diamenty za zakupy naliczane są w ciągu 24 godzin od ich zrobienia. W przeciwnym razie skontaktuj się z nami.';
-    const myInsertText6 = 'Tak, za zakupy produktów Hebe Partner naliczene są diamenty za każde jednorazowo wydane 25 zł z kartą my hebe w drogeriach lub po zalogowaniu na hebe.pl, w aplikacji.';
-    const myInsertText7 = 'Po zebraniu 20 diamentów jako klient my hebe STANDARD, wymienimy je na status my hebe VIP. Status my hebe VIP jest ważny przez 12 miesięcy od momentu jego uzyskania.';
-    const myInsertText8 = 'Jako my hebe STANADARD możesz zbierać diamenty za każde jednorazowo wydane 25 zł z kartą my hebe. Zdobycie 20 diamentów spowoduje, że zebrana pula zostanie wymieniona na status my hebe VIP.';
-    const myInsertText9 = 'Po uzyskaniu statusu my hebe VIP rób zakupy i zbieraj diamenty, które możesz wymieniać na kupony. Im więcej diamentów tym więcej korzyści.';
-    const myInsertText10 = 'Informację o dostępnych i aktywnych kuponach znajdziesz po zalogowaniu na swoje konto na hebe.pl lub aplikacji w zakładce Moje Kupony.';
-    const myInsertText11 = 'Każdy kupon rabatowy posiada swój termin ważności, po jego upływie nie ma możliwości na jego realizację, a diamenty nie zostaną przywrócone do Twojej puli.';
-    const myInsertText12 = 'W przypadku zwrotu lub anulacji zdobyte diamenty za zakupy zostaną odjęte z Twojej puli.';
-    const myInsertText13 = 'W celu realizacji kuponu w drogerii należy okazać kartę my hebe. W przypadku zakupów online, aby móc wykorzystać kupon należy zalogować się na hebe.pl lub w aplikacji.';
-    const myInsertText14 = 'Jeśli na Twoim kuponie nie ma informacji, że można zrealizować go na produkty Hebe Partner to znaczy, że kupon jest wyłączony na tą ofertę. ';
-    const myInsertText15 = 'Nie można łączyć żadnych kuponów podczas jednej transakcji zarówno w na hebe.pl jak i w sklepach stacjonarnych. Obowiązuje zasada 1 transakcja = 1 kupon';
-    const myInsertText16 = 'W celu przedłużenia statusu my hebe VIP należy w przeciągu 12 miesięcy zebrać 20 diamentów. Po uzyskaniu pełnej puli Twój status my hebe VIP zostanie przedłużony na okres kolejnych 12 miesięcy.';
-    const myInsertText17 = 'Przedłużenie statusu my hebe VIP nie powoduje zabrania diamentów z Twojego konta.';
+    const myInsertText1 = 'Ako my hebe STANDARD môžete naraz získať diamanty za každých 25 Kč utratených kartou my hebe v drogériách alebo po prihlásení na stránke hebe.pl, v aplikácii.';
+    const myInsertText2 = 'Každý diamant je platný 365 dní od dátumu, kedy ste ho získali.';
+    const myInsertText3 = 'Diamanty sa z vášho účtu strhnú v prípade zrušenia objednávky alebo vrátenia výrobku.';
+    const myInsertText4 = 'Aktuálny počet a históriu diamantov si môžete skontrolovať na svojom účte my hebe po prihlásení v aplikácii a na stránke hebe.pl.';
+    const myInsertText5 = 'Diamanty za nákupy sú pripísané do 24 hodín od uskutočnenia nákupu. V opačnom prípade nás prosím kontaktujte.';
+    const myInsertText6 = 'Áno, diamanty za nákupy produktov Hebe Partner vám budú pripísané za každých 25 Kč, ktoré jednorazovo miniete svojou kartou my hebe v drogérii alebo po prihlásení na stránke hebe.pl, v aplikácii.';
+    const myInsertText7 = 'Keď ako zákazník my hebe STANDARD nazbierate 20 diamantov, vymeníme vám ich za status my hebe VIP. Status my hebe VIP je platný 12 mesiacov od jeho získania.';
+    const myInsertText8 = 'Ako zákazník my hebe STANDARD môžete naraz zbierať diamanty za každých 25 Kč, ktoré miniete s kartou my hebe. Získaním 20 diamantov sa nazbierané diamenty vymenia za status my hebe VIP.';
+    const myInsertText9 = 'Keď získate status my hebe VIP, nakupujte a zbierajte diamanty, ktoré môžete vymeniť za poukážky. Čím viac diamantov nazbierate, tým viac výhod získate.';
+    const myInsertText10 = 'Informácie o dostupných a aktívnych poukážkach nájdete po prihlásení do svojho účtu na stránke hebe.pl alebo v aplikácii v časti Moje poukážky.';
+    const myInsertText11 = 'Každá zľavová poukážka má dátum platnosti, po jeho uplynutí ju nemôžete uplatniť a diamanty sa vám do vášho balíka nevrátia.';
+    const myInsertText12 = 'V prípade vrátenia alebo zrušenia sa získané diamanty za nákupy odpočítajú z vášho balíka.';
+    const myInsertText13 = 'Na uplatnenie kupónu v drogérii musíte predložiť svoju kartu my hebe. Pri nákupoch online sa musíte prihlásiť na stránke hebe.pl alebo v aplikácii, aby ste mohli poukážku uplatniť.';
+    const myInsertText14 = 'Ak na vašom kupóne nie je uvedené, že ho možno uplatniť na výrobky Hebe Partner, znamená to, že kupón je pre danú ponuku vylúčený.';
+    const myInsertText15 = 'Počas jednej transakcie nemôžete kombinovať žiadne kupóny na stránke hebe.pl ani v kamenných predajniach. Platí pravidlo 1 transakcia = 1 kupón.';
+    const myInsertText16 = 'Aby ste si mohli predĺžiť svoj status my hebe VIP, musíte počas 12 mesiacov nazbierať 20 diamantov. Keď nazbierate celú sumu, váš status my hebe VIP sa predĺži o ďalších 12 mesiacov.';
+    const myInsertText17 = 'Predĺženie vášho statusu my hebe VIP neuberá diamanty z vášho účtu.';
 
     function toggleAnswears(button, answearPlace, answearText) {
         // const isMobile = window.innerWidth <= 600
@@ -84,7 +84,7 @@ function btn4Click(){
 
 function btn5Click(){
     const answear5Place = document.getElementById("answear5");
-    const answear5Text = myInsertText6;
+    const answear5Text = myInsertText5;
 
     toggleAnswears(btn5, answear5Place, answear5Text);
 }
@@ -119,7 +119,7 @@ function btn9Click(){
 
 function btn10Click(){
     const answear10Place = document.getElementById("answear10");
-    const answear10Text = myInsertText8;
+    const answear10Text = myInsertText10;
 
     toggleAnswears(btn10, answear10Place, answear10Text);
 }
@@ -140,7 +140,7 @@ function btn12Click(){
 
 function btn13Click(){
     const answear13Place = document.getElementById("answear13");
-    const answear13Text = myInsertText12;
+    const answear13Text = myInsertText13;
 
     toggleAnswears(btn13, answear13Place, answear13Text);
 }
