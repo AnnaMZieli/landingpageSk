@@ -53,6 +53,36 @@ buttons.forEach(btn => {
         }
     }
     
+    const btnSH = document.getElementById("showHide")
+
+    const qaSectors = [
+        document.querySelector(".qaSector17"),
+        document.querySelector(".qaSector16"),
+        document.querySelector(".qaSector15"),
+        document.querySelector(".qaSector14"),
+        document.querySelector(".qaSector13"),
+        document.querySelector(".qaSector12"),
+        document.querySelector(".qaSector11"),
+        document.querySelector(".qaSector10"),
+        document.querySelector(".qaSector9"),
+        document.querySelector(".qaSector8"),
+        document.querySelector(".qaSector7"),
+        document.querySelector(".qaSector6"),
+        document.querySelector(".qaSector5")
+    ];
+
+    qaSectors.forEach(qa => qa.style.display = "none")
+
+
+    function buttonSHClick() {
+        if (btnSH.innerHTML === "Ukáž viac") {
+            qaSectors.forEach(qa => qa.style.display = "flex");
+            btnSH.innerHTML = "Ukážte menej";
+        } else {
+            qaSectors.forEach(qa => qa.style.display = "none");
+            btnSH.innerHTML = "Ukáž viac";
+        }
+    }
 
 function btn1Click(){
     const answear1Place = document.getElementById("answear1");
